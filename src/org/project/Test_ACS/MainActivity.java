@@ -11,6 +11,7 @@ import com.appcelerator.cloud.sdk.ACSClientError;
 import com.appcelerator.cloud.sdk.CCRequestMethod;
 import com.appcelerator.cloud.sdk.CCResponse;
 import android.widget.TextView;
+import org.json.JSONObject;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -27,6 +28,17 @@ public class MainActivity extends Activity {
         signupButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 performSignup();
+                //Creamos el Intent
+                Intent intent = new Intent(MainActivity.this, ShowUsers.class);
+                //Creamos la información a pasar entre actividades
+                Bundle b = new Bundle();
+                b.putString("User",((EditText) findViewById(R.id.first_name)).getText().toString());
+
+                //Añadimos la información al intent
+                intent.putExtras(b);
+
+                //Iniciamos la nueva actividad
+                startActivity(intent);
             }});
         View cancelButton = findViewById(R.id.cancel);
         cancelButton.setOnClickListener(new View.OnClickListener() {
@@ -60,10 +72,9 @@ public class MainActivity extends Activity {
 
         try {
             CCResponse response = sdk.sendRequest("users/create.json", CCRequestMethod.POST, dataMap);
-            Intent intent = new Intent();
+            /*Intent intent = new Intent();
             setResult(RESULT_OK, intent);
-            response.
-
+            JSONObject jsonResponse = response.getResponseData();*/
         } catch (ACSClientError e) {
             e.printStackTrace();
         } catch (IOException e) {

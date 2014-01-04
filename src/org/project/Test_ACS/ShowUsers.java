@@ -1,9 +1,8 @@
 package org.project.Test_ACS;
 
 import android.app.Activity;
-import android.view.View;
-import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class ShowUsers extends Activity {
 
@@ -12,12 +11,14 @@ public class ShowUsers extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.users);
 
-        View signupButton = findViewById(R.id.signup);
-        signupButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                performSignup();
-            }});
+        //Localizar los controles
+        TextView txtOkCreation = (TextView)findViewById(R.id.textViewUser);
 
+        //Recuperamos la información pasada en el intent
+        Bundle bundle = this.getIntent().getExtras();
+
+        //Construimos el mensaje a mostrar
+        txtOkCreation.setText("Se ha creado el usuario: " + bundle.getString("User"));
     }
 
 
