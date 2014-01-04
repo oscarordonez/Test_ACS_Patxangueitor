@@ -1,7 +1,6 @@
 package org.project.Test_ACS;
 
 import android.app.Activity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,7 +10,7 @@ import com.appcelerator.cloud.sdk.ACSClient;
 import com.appcelerator.cloud.sdk.ACSClientError;
 import com.appcelerator.cloud.sdk.CCRequestMethod;
 import com.appcelerator.cloud.sdk.CCResponse;
-/*import android.widget.TextView;*/
+import android.widget.TextView;
 
 import java.io.IOException;
 import java.util.HashMap;
