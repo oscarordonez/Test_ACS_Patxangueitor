@@ -11,12 +11,26 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/login.xml">
+        <config>
+          <device>4in WVGA (Nexus S)</device>
+          <theme>@android:style/Theme</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10001d88-430d-4f47-989f-e27959050dd2" name="Default" comment="">
+    <list default="true" id="10001d88-430d-4f47-989f-e27959050dd2" name="Default" comment="Login Activity --&gt; Main Screen">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/project/Test_ACS/MainScreen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/mainscreen.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/project/Test_ACS/Login.java" afterPath="$PROJECT_DIR$/src/org/project/Test_ACS/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/project/Test_ACS/SignUp.java" afterPath="$PROJECT_DIR$/src/org/project/Test_ACS/SignUp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/login.xml" afterPath="$PROJECT_DIR$/res/layout/login.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Test ACS dels putos Pebrots.iws" />
@@ -103,10 +117,15 @@
       <file leaf-file-name="Login.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/project/Test_ACS/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="901">
+            <state line="37" column="34" selection-start="1221" selection-end="1430" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1598">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#686#702#0" expanded="true" />
+                <element signature="e#619#1472#0" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#1571#1694#0" expanded="true" />
+                <element signature="e#1683#1684#0" expanded="true" />
+                <element signature="e#1798#1995#0" expanded="true" />
+                <element signature="e#1993#1994#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,49 +134,79 @@
       <file leaf-file-name="SignUp.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/project/Test_ACS/SignUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="5" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1496">
+            <state line="81" column="5" selection-start="3155" selection-end="3155" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="1241">
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#738#1355#0" expanded="true" />
                 <element signature="e#1353#1354#0" expanded="true" />
-                <element signature="e#1453#1567#0" expanded="true" />
-                <element signature="e#1565#1566#0" expanded="true" />
-                <element signature="e#1675#1789#0" expanded="true" />
+                <element signature="e#1675#1798#0" expanded="true" />
                 <element signature="e#1787#1788#0" expanded="true" />
-                <element signature="e#2432#2448#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/layout/signup.xml">
-          <provider editor-type-id="android-designer">
+      <file leaf-file-name="MainScreen.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/project/Test_ACS/MainScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="24" selection-start="550" selection-end="550" vertical-scroll-proportion="0.5930851" vertical-offset="66" max-vertical-offset="442">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainscreen.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/mainscreen.xml">
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowUsers.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/project/Test_ACS/ShowUsers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="32" selection-start="4599" selection-end="4599" vertical-scroll-proportion="0.33333334" vertical-offset="1651" max-vertical-offset="2210">
+            <state line="13" column="0" selection-start="315" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
+      <file leaf-file-name="signup.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/signup.xml">
+          <provider editor-type-id="text-editor">
+            <state line="104" column="32" selection-start="4599" selection-end="4599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
+              <folding />
+            </state>
+          </provider>
           <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
-              <folding />
+        </entry>
+      </file>
+      <file leaf-file-name="login.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="24" selection-start="2478" selection-end="2478" vertical-scroll-proportion="-7.92" vertical-offset="890" max-vertical-offset="1241">
+              <folding>
+                <element signature="e#2436#2453#0" expanded="true" />
+              </folding>
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="629">
+            <state line="5" column="17" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -181,13 +230,14 @@
         <option value="$PROJECT_DIR$/src/org/project/Test_ACS/Test.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/layout/users.xml" />
-        <option value="$PROJECT_DIR$/src/org/project/Test_ACS/ShowUsers.java" />
         <option value="$PROJECT_DIR$/src/org/project/Test_ACS/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout/login.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/org/project/Test_ACS/SignUp.java" />
         <option value="$PROJECT_DIR$/src/org/project/Test_ACS/Login.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/login.xml" />
+        <option value="$PROJECT_DIR$/src/org/project/Test_ACS/ShowUsers.java" />
+        <option value="$PROJECT_DIR$/src/org/project/Test_ACS/MainScreen.java" />
       </list>
     </option>
   </component>
@@ -223,6 +273,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -312,7 +363,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,7 +379,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
-    <property name="SearchEverywhereHistory" value="" />
+    <property name="SearchEverywhereHistory" value=";" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -375,19 +425,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -413,6 +450,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -567,7 +617,11 @@
       <created>1389141293237</created>
       <updated>1389141293237</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Login activity&#10;">
+      <created>1389141834193</created>
+      <updated>1389141834193</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -592,33 +646,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327787" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48918468" sideWeight="0.70468277" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36227044" sideWeight="0.4826284" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2560423" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36272877" sideWeight="0.5354985" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36227044" sideWeight="0.5166163" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23903178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23867069" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -637,7 +691,8 @@
     <MESSAGE value="git remote add origin git@github.com:oscarordonez/Test_ACS_Patxangueitor.git" />
     <MESSAGE value="git remote add origin git@github.com:oscarordonez/Test_ACS_Patxangueitor.git&#10;git push -u origin master&#10;" />
     <MESSAGE value="Login activity&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login activity&#10;" />
+    <MESSAGE value="Login Activity --&gt; Main Screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Activity --&gt; Main Screen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -652,19 +707,26 @@
         <state line="20" column="39" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="833">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#686#702#0" expanded="true" />
+            <element signature="e#619#1472#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1571#1694#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1798#1995#0" expanded="true" />
+            <element signature="e#1993#1994#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
-          <folding />
+          <folding>
+            <element signature="e#2436#2453#0" expanded="true" />
+          </folding>
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
@@ -675,13 +737,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/signup.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="119" column="34" selection-start="5161" selection-end="5161" vertical-scroll-proportion="0.0" vertical-offset="1662" max-vertical-offset="2210">
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/project/Test_ACS/ShowUsers.java">
@@ -692,13 +754,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/users.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
@@ -864,13 +926,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/users.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/ids.xml">
@@ -887,119 +949,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/project/Test_ACS/ShowUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="86" selection-start="667" selection-end="667" vertical-scroll-proportion="0.53217393" vertical-offset="0" max-vertical-offset="575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/acs-android-sdk-master/examples/Demo/src/com/appcelerator/com/cloud/demotest/TestDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="12" selection-start="4370" selection-end="4392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="144" column="12" selection-start="4370" selection-end="4392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/acs-android-sdk-master/examples/Demo/src/com/appcelerator/cloud/demo/SignUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2414" selection-end="2443" vertical-scroll-proportion="0.0" vertical-offset="661" max-vertical-offset="1343">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#737#953#0" expanded="false" />
-            <element signature="e#951#952#0" expanded="false" />
-            <element signature="e#1060#1161#0" expanded="false" />
-            <element signature="e#1159#1160#0" expanded="false" />
-            <element signature="e#2742#2936#0" expanded="false" />
-            <element signature="e#2927#2928#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="69" column="0" selection-start="2414" selection-end="2443" vertical-scroll-proportion="0.0" vertical-offset="661" max-vertical-offset="1343" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/acs-android-sdk-master/acs/src/com/appcelerator/cloud/sdk/ACSClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="784" column="0" selection-start="26127" selection-end="26127" vertical-scroll-proportion="0.0" vertical-offset="11432" max-vertical-offset="11798">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#15305#15306#0" expanded="false" />
-            <element signature="e#15330#15331#0" expanded="false" />
-            <element signature="e#16430#16438#0" expanded="false" />
-            <element signature="e#24581#24582#0" expanded="false" />
-            <element signature="e#24614#24615#0" expanded="false" />
-            <element signature="e#24651#24652#0" expanded="false" />
-            <element signature="e#24682#24683#0" expanded="false" />
-            <element signature="e#24832#24833#0" expanded="false" />
-            <element signature="e#24866#24867#0" expanded="false" />
-            <element signature="e#25245#25246#0" expanded="false" />
-            <element signature="e#25280#25281#0" expanded="false" />
-            <element signature="e#25476#25477#0" expanded="false" />
-            <element signature="e#25512#25513#0" expanded="false" />
-            <element signature="e#26026#26027#0" expanded="false" />
-            <element signature="e#26066#26067#0" expanded="false" />
-            <element signature="e#26102#26103#0" expanded="false" />
-            <element signature="e#26124#26125#0" expanded="false" />
-            <element signature="e#26169#26170#0" expanded="false" />
-            <element signature="e#26200#26201#0" expanded="false" />
-            <element signature="e#26247#26248#0" expanded="false" />
-            <element signature="e#26274#26275#0" expanded="false" />
-            <element signature="e#26336#26337#0" expanded="false" />
-            <element signature="e#26377#26378#0" expanded="false" />
-          </folding>
+        <state line="784" column="0" selection-start="26127" selection-end="26127" vertical-scroll-proportion="0.0" vertical-offset="11432" max-vertical-offset="11798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/signup.xml">
+      <provider editor-type-id="text-editor">
+        <state line="104" column="32" selection-start="4599" selection-end="4599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
+          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="629">
+        <state line="5" column="17" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/mainscreen.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="332">
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/project/Test_ACS/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/org/project/Test_ACS/ShowUsers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#686#702#0" expanded="true" />
-          </folding>
+        <state line="13" column="0" selection-start="315" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/project/Test_ACS/SignUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="5" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1496">
+        <state line="81" column="5" selection-start="3155" selection-end="3155" vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="1241">
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#738#1355#0" expanded="true" />
             <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1453#1567#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#1675#1789#0" expanded="true" />
+            <element signature="e#1675#1798#0" expanded="true" />
             <element signature="e#1787#1788#0" expanded="true" />
-            <element signature="e#2432#2448#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/signup.xml">
+    <entry file="file://$PROJECT_DIR$/src/org/project/Test_ACS/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="34" selection-start="1221" selection-end="1430" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1598">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#1472#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1571#1694#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1798#1995#0" expanded="true" />
+            <element signature="e#1993#1994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="24" selection-start="2478" selection-end="2478" vertical-scroll-proportion="-7.92" vertical-offset="890" max-vertical-offset="1241">
+          <folding>
+            <element signature="e#2436#2453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/project/Test_ACS/MainScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="32" selection-start="4599" selection-end="4599" vertical-scroll-proportion="0.33333334" vertical-offset="1651" max-vertical-offset="2210">
-          <folding />
+        <state line="17" column="24" selection-start="550" selection-end="550" vertical-scroll-proportion="0.5930851" vertical-offset="66" max-vertical-offset="442">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

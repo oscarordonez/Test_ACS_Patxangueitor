@@ -48,7 +48,8 @@ public class SignUp extends Activity {
         showusersButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 finish();
-            }});
+            }
+        });
     }
 
     public void performSignup(){
