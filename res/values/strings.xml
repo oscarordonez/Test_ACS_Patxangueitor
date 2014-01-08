@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Test ACS dels putos Pebrots</string>
+    <string name="app_name">Patxangueitor</string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
     <string name="email_address">Email Address</string>
@@ -15,4 +15,5 @@
     <string name="logout">Logout</string>
     <string name="details">Details</string>
     <string name="showusers">ShowUsers</string>
+    <string name="NewUser">Nuevo usuario</string>
 </resources>
