@@ -16,11 +16,7 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10001d88-430d-4f47-989f-e27959050dd2" name="Default" comment="Login activity&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/project/Test_ACS/Login.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/project/Test_ACS/SignUp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/ids.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/login.xml" />
+    <list default="true" id="10001d88-430d-4f47-989f-e27959050dd2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Test ACS dels putos Pebrots.iws" />
@@ -567,7 +563,11 @@
       <created>1389140687593</created>
       <updated>1389140687593</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Login activity&#10;">
+      <created>1389141293237</created>
+      <updated>1389141293237</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
